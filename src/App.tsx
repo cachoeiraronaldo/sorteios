@@ -12,7 +12,7 @@ import SorteioInstagram from './pages/SorteioInstagram';
 import SorteioReels from './pages/SorteioReels';
 import ResultadoSorteio from './pages/ResultadoSorteio';
 
-function Placeholder({ title }) {
+function Placeholder({ title }: { title: string }) {
   return (
     <div style={{ padding: '2rem', textAlign: 'center', fontSize: 24 }}>
       {title} (em construção)
